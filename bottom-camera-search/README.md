@@ -61,7 +61,7 @@ doesn't, install R2026a; that is the supported route and it is free.
 
 ### If you're new to this stack
 
-MathWorks Onramps are free, run in the browser, and take about two hours each.
+MathWorks Onramps are free, run interactively in the browser or a local MATLAB installation, and take about 0.5~1.5 hours each, depending on your speed.
 Do them in order; each assumes the one before it.
 
 1. [MATLAB Onramp](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted)
