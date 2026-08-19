@@ -26,6 +26,9 @@ week on. Neither is the harder one, and there are no points for attempting both.
 Each folder's README has the full brief, setup steps and requirements. Read the one you
 picked before you start.
 
-## Logistics
+## Logistics & Submission
 
-- todo, handover to Kieran
+- **Submission Deadline & Form**: Candidates are to submit their work via the **workshop task submission form** (the same form used for Task 1 and Task 2) **before their interview**.
+- **Interview Discussion**: Task 3 will be evaluated and discussed during your interview. Come prepared to walk through your code, show demos/results, and discuss your design choices, trade-offs, and learnings!
+
+All the best!

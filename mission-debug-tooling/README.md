@@ -164,7 +164,3 @@ so `py_trees_ros_interfaces` message types are available at no cost if you
 want them.
 
 ---
-
-## Logistics
-
-- todo, handover to Kieran
