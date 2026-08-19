@@ -1,7 +1,8 @@
 # HornetXII Challenge — mission debug tooling
 
 **Stack:** ROS 2 Humble · `py_trees` / `py_trees_ros` · Foxglove
-**Repo:** https://github.com/bumblebeeas/examples (BlueROV + ArduSub sim)
+
+**Repo:** https://github.com/bumblebeeas/examples
 
 ---
 
@@ -135,11 +136,10 @@ half is that the tool actually earned its place.
 
 ## Environment tiers
 
-Pick whichever your hardware supports. **Tier B and C are not penalized.**
+Pick whichever your hardware supports. **Tier B is not penalized.**
 
 - **Tier A — full sim.** Bin and torpedo missions. Needs an NVIDIA GPU, Gazebo, and Git LFS for the ML models. Setup is in the repo README.
-- **Tier B — square mission plus recorded data.** No vision or ML. Use the square mission for the live loop and the rosbag we provide for milestone 4. <!-- TODO: host and link the bag -->
-- **Tier C — synthetic tree.** No sim at all. Build your own tree that reproduces the shape of ours: deep nesting, retries, and `FailureIsSuccess` decorators masking failures.
+- **Tier B — synthetic tree.** No sim at all. Build your own tree that reproduces the shape of ours: deep nesting, retries, and `FailureIsSuccess` decorators masking failures.
 
 ---
 
