@@ -6,7 +6,7 @@ talking about what you did.
 | Challenge | What it is | You would be working in |
 |---|---|---|
 | [**Bottom camera search**](bottom-camera-search/) | A working AUV simulation with no camera. Give the vehicle a way to see the seafloor, find a cube on it, and settle over it. | MATLAB, Simulink, Simscape Multibody |
-| [**Mission debug tooling**](mission-debug-tooling/) | Our competition missions are behaviour trees we can barely see into. Build some of the debugging and visualization we do not have. | ROS 2 Humble, `py_trees`, Python, Foxglove |
+| [**Mission debug tooling**](mission-debug-tooling/) | Our competition missions are behaviour trees we can barely see into. Build some of the debugging and visualization we do not have. | ROS 2, `py_trees`, Python, Foxglove |
 
 They are deliberately unalike: one is simulation, control and vision; the other is
 developer tooling on a live robotics stack. Choose the one you would rather spend a
