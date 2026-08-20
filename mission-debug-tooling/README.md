@@ -4,6 +4,8 @@
 
 **Repo:** https://github.com/bumblebeeas/examples
 
+The repo setup uses Docker, so it's fine if you are using an Ubuntu 24.04 host machine, but we encourage you guys to try porting it to ROS 2 Jazzy + Gazebo Harmonic, maybe with the help of coding agents.
+
 ---
 
 ## The problem
