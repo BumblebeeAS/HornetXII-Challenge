@@ -20,7 +20,7 @@ Individually, none of these sensors tell the whole story. Your task is to take r
 
 ## The datasets
 
-We provide two recorded ROS 2 bags (`.db3`) captured from our vehicle under different operational profiles:
+We provide two recorded ROS 2 bags (`.db3`) captured from our vehicle under different operational profiles (find the download link in Telegram):
 
 1. **Stationkeep (`stationkeep_test_basket_0`)**: The vehicle attempts to hold a fixed position and depth in the water.
 2. **Movement (`ascent_descent_basket`)** 
@@ -29,7 +29,7 @@ We provide two recorded ROS 2 bags (`.db3`) captured from our vehicle under diff
 
 - [`extrinsics.yaml`](extrinsics.yaml): Spatial transforms $(x, y, z, \text{roll}, \text{pitch}, \text{yaw})$ of each sensor frame relative to `auv5/base_link`.
 - [`bot_cam.yaml`](bot_cam.yaml): Bottom camera intrinsics, projection matrix, and lens distortion parameters.
-- [`bin.sdf](bin.sdf): Model of the bin used in the bags
+- [`bin.sdf`](bin.sdf): Model of the bin used in the bags
 
 ---
 
