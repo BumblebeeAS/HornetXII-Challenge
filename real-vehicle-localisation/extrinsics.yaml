@@ -1,0 +1,37 @@
+# Sensor transforms relative to base_link
+transforms:
+  - parent: auv5/base_link
+    child: auv5/bot_cam_optical
+    x: 0.1829
+    y: 0.0
+    z: -0.12964
+    roll: 0.0
+    pitch: 1.5707963267948966  # π/2
+    yaw: 0.0
+
+  - parent: auv5/base_link
+    child: auv5/imu_link
+    x: 0.0999
+    y: 0.0
+    z: -0.0461
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+
+  - parent: auv5/base_link
+    child: auv5/dvl_link
+    x: -0.0186
+    y: 0.0
+    z: -0.11794
+    roll: 3.141592653589793  # π
+    pitch: 0.0
+    yaw: 0.0
+
+  - parent: auv5/base_link
+    child: auv5/sonar_optical
+    x: 0.29442
+    y: 0.0
+    z: 0.1354
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0

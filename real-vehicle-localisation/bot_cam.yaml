@@ -1,0 +1,22 @@
+# pinhole underwater
+image_width: 2048
+image_height: 1536
+camera_name: bot_cam
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1101.9334675339337, 0.0, 1031.2951470107676, 0.0, 1104.0038512802887, 771.4245748276303, 0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-0.17502002060994504, 0.0510601040018688, 0.0011049959811840796, 0.0010621537651177891, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1101.9334675339337, 0.0, 1031.2951470107676, 0.0, 0.0, 1104.0038512802887, 771.4245748276303, 0.0, 0.0, 0.0, 1.0, 0.0]
+  # data: [939.22004465, 0.0, 1024, 0.0, 0.0, 937.837355415, 768, 0.0, 0.0, 0.0, 1.0, 0.0] # original times 0.85 focal

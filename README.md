@@ -7,12 +7,13 @@ talking about what you did.
 |---|---|---|
 | [**Bottom camera search**](bottom-camera-search/) | A working AUV simulation with no camera. Give the vehicle a way to see the seafloor, find a cube on it, and settle over it. | MATLAB, Simulink, Simscape Multibody |
 | [**Mission debug tooling**](mission-debug-tooling/) | Our competition missions are behaviour trees we can barely see into. Build some of the debugging and visualization we do not have. | ROS 2, `py_trees`, Python, Foxglove |
+| [**Real vehicle localisation**](real-vehicle-localisation/) | Real AUV rosbags with IMU, DVL, depth and bottom camera feeds. Fuse sensor data into a reliable state estimate and evaluate its drift. | ROS 2, Python / C++, Foxglove |
 
-They are deliberately unalike: one is simulation, control and vision; the other is
-developer tooling on a live robotics stack. Choose the one you would rather spend a
-week on. Neither is the harder one, and there are no points for attempting both.
+They are deliberately unalike: one is simulation, control and vision; another is developer tooling on a live robotics stack; and the last is sensor fusion and state estimation on real vehicle data. Choose the one you would rather spend a week on.
 
-## What applies to either
+None is the harder one, and there are no points for attempting more than one.
+
+## What applies to all of them
 
 - **Tell us which one you picked**, up front.
 - **Something working that you can explain beats something ambitious that you cannot.**
